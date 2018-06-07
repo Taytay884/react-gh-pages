@@ -26,13 +26,29 @@ class Header extends Component {
             <i className="menu-icon" />
           )}
         </div>
-        {/* <div className={(this.state.isSideMenuOpen) ? 'side-bar menu' : 'nav-bar menu'}>
-                    <ul className='flex space-between'>
-                        <li><NavLink exact activeClassName='selected' to='/'>Home</NavLink></li>
-                        <li><NavLink exact activeClassName='selected' to='/contact'>Contacts</NavLink></li>
-                        <li><NavLink exact activeClassName='selected' to='/login'>Login</NavLink></li>
-                    </ul>
-                </div> */}
+        <div
+          className={
+            this.state.isSideMenuOpen ? "side-bar menu" : "nav-bar menu"
+          }
+        >
+          <ul className="flex space-between">
+            <li>
+              <NavLink exact activeClassName="selected" to="/">
+                Home
+              </NavLink>
+            </li>
+            <li>
+              <NavLink exact activeClassName="selected" to="/contact">
+                Contacts
+              </NavLink>
+            </li>
+            <li>
+              <NavLink exact activeClassName="selected" to="/login">
+                Login
+              </NavLink>
+            </li>
+          </ul>
+        </div>
       </header>
     );
   }
