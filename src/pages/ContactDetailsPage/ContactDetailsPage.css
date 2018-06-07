@@ -1,0 +1,19 @@
+.ContactDetailsPage {
+  padding: 0px 3px;
+}
+.ContactDetailsPage img {
+  height: 120px;
+}
+
+.ContactDetailsPage li {
+  margin-bottom: 5px;
+  word-break: break-all;
+}
+
+.ContactDetailsPage h2 {
+  margin-bottom: 5px;
+}
+
+.ContactDetailsPage button {
+  margin-top: 5px;
+}

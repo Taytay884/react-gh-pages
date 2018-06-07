@@ -1,0 +1,11 @@
+.bitcoin-chart h2 {
+  /* background: red; */
+  text-align: center;
+  text-decoration: underline;
+  width: 360px;
+  margin: 0 auto;
+}
+
+.bitcoin-chart .chart {
+  font-size: 0.7em;
+}

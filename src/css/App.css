@@ -1,0 +1,67 @@
+@import './global/base.css';
+@import './global/helpers.css';
+@import './global/icons.css';
+@import './global/scrollbar.css';
+@import './global/input.css';
+@import './pages/pages.css';
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One');
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One');
+@import url('https://fonts.googleapis.com/css?family=Kalam');
+@import url('https://fonts.googleapis.com/css?family=Concert+One');
+
+:root {
+  --main-bg-color: #5CDB95;
+  --main-font-color: #242582;
+  --main-special-color: #f64c72;
+  --secondary-special-color: #edf5e1;
+  --main-dark-color: #553d67;
+  --header-height: 70px;
+}
+
+.App {
+  font-family: 'Concert One', cursive;
+  background: url('../img/turqoise.svg')  no-repeat;
+   background-attachment: fixed;
+   background-position: center center;
+   background-size: cover; 
+}
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+}
+
+h1 {
+  font-family: 'Kalam', cursive;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+button {
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+    margin: 0 auto;
+    font-size: 30px;
+    background: var(--main-bg-color);
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    min-width: 200px;
+    height: 50px;
+    color: var(--main-font-color);
+    border-radius: 25px;
+}
+
+button:hover {
+    background: var(--main-special-color);
+}
+button:active {
+    box-shadow: inset 1px 1px 10px #333;
+}

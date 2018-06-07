@@ -1,0 +1,18 @@
+.ContactPreview img {
+    height: 30px;
+    margin-right: 10px;
+}
+
+.ContactPreview {
+    transition: background 0.2s ease-in-out;
+    padding: 8px;
+    border-radius: 0px 0px 5px 0px;
+}
+
+.ContactPreview:not(:last-child) {
+    border-bottom: 2px solid var(--main-bg-color);
+}
+
+.ContactPreview:hover {
+    background: rgba(255, 255, 255, 0.2);
+}

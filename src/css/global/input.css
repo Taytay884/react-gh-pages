@@ -1,0 +1,27 @@
+.default-input {
+  font-family: inherit;
+  color: var(--secondary-special-color);
+  display: block;
+  width: 100%;
+  background: transparent;
+  font-size: 22px;
+  line-height: 1.2;
+  padding: 0 2px;
+  outline: none;
+  border: none;
+  height: 40px;
+  overflow: visible;
+  margin: 0;
+  border-bottom: 2px solid #dbdbdb;
+  -webkit-transition: border-bottom 0.2s ease-out;
+  -o-transition: border-bottom 0.2s ease-out;
+  transition: border-bottom 0.2s ease-out;
+}
+
+.default-input:focus {
+  border-bottom: 4px solid var(--main-special-color);
+}
+
+.default-label {
+  color: #999999;
+}

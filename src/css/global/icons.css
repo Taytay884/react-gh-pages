@@ -1,0 +1,23 @@
+.email-icon {
+    background-image: url('../../img/email.svg');
+    background-size: cover;
+    height: 32px;
+    min-width: 32px;
+    margin-right: 10px;
+}
+
+.phone-icon {
+    background-image: url('../../img/telephone.svg');
+    background-size: cover;
+    height: 32px;
+    min-width: 32px;
+    margin-right: 10px;
+}
+
+.add-contact-icon {
+    display:block;
+    background-image: url('../../img/add-contact.svg');
+    background-size: cover;
+    height: 32px;
+    min-width: 32px;
+}

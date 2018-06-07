@@ -1,0 +1,26 @@
+.MovePreview {
+  padding: 5px;
+  /* height: fit-content; */
+}
+
+.MovePreview:not(:last-child) {
+  border-bottom: 2px solid var(--main-bg-color);
+}
+
+.MovePreview {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.MovePreview .to {
+  font-size: 1.3em;
+  color: var(--secondary-special-color);
+}
+
+.MovePreview .amount {
+  color: var(--main-bg-color);
+}
+
+.MovePreview .at {
+  font-size: 0.7em;
+  color: rgb(230, 230, 230);
+}

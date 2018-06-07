@@ -1,0 +1,22 @@
+.Filter {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.Filter input {
+  box-shadow: 0 0 3pt 2pt var(--main-bg-color);
+  border-radius: 300px;
+  padding: 5px 0px 5px 10px;
+  width: 100%;
+}
+
+.Filter input::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: var(--secondary-special-color);
+  opacity: 0.5;
+}
+
+.Filter input:focus {
+  box-shadow: 0 0 3pt 4pt var(--main-special-color);
+}

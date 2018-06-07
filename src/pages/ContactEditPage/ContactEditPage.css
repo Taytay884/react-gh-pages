@@ -1,0 +1,14 @@
+.ContactEditPage {
+    padding: 0px 3px;
+}
+.ContactEditPage img {
+    height: 120px;
+}
+
+.ContactEditPage li {
+    margin-bottom: 5px;
+}
+
+.ContactEditPage h2 {
+    margin-bottom: 5px;
+}
